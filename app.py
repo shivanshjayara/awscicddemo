@@ -17,7 +17,7 @@ app = Flask(__name__)
 @app.route('/hi')
 @cross_origin()
 def home():
-    return "hello world and welcome to aws demo. My name is shivansh"
+    return "hello world and welcome to aws demo 1. My name is shivansh"
 
 # @app.route('/predict', methods=['POST'])
 # @cross_origin()
